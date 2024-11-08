@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Calculadora DOM</title>
+</head>
+<body>
+    <h1 id="titulo" class="titlle">MERCY CALCUADORA</h1>
+    <form action="">
+        
+        <input type="number" id="numberInput">
+        <button type="button" onclick="setOperation('+')">+</button>
+        <button type="button" onclick="setOperation('-')">-</button>
+        <button type="button" onclick="setOperation('*')">*</button>
+        <button type="button" onclick="setOperation('/')">/</button>
+        <button type="button" onclick="calculateResult()">=</button>
+        <button type="button" onclick="clearDisplay()">C</button>
+        <br>
+        <input type="text" id="desabilitado" disabled>
+
+    </form>
+    <script src="./JS/maincalculadora.js"></script>
+</body>
+</html>
